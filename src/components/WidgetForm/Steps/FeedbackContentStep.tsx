@@ -66,7 +66,6 @@ export function FeedbackContentStep({
             screenshot={screenshot}
             onScreenshotTook={setScreenshot}
           />
-
           <button
             type="submit"
             disabled={comment.length === 0}
